@@ -38,6 +38,10 @@ pub fn authority_keys_from_seed(s: &str) -> (AuraId, GrandpaId) {
 	)
 }
 
+pub fn stash_config() -> Result<ChainSpec, String>{
+	ChainSpec::from_json_bytes(&include_bytes!("../res/potgame.json")[..])
+}
+
 pub fn development_config() -> Result<ChainSpec, String> {
 	let wasm_binary = WASM_BINARY.ok_or("Development wasm binary not available".to_string())?;
 
