@@ -3,7 +3,7 @@
   "id": "potgame_testnet",
   "chainType": "Live",
   "bootNodes": [
-    "/dns/boot.pog-game.tech/tcp/30333/p2p/12D3KooWKK19FfVuoXHkexFPTadbfJ6yXM38g5KdYj8dCQWTb3EC"
+    "/dns/boot.pot-game.tech/tcp/30333/p2p/12D3KooWKK19FfVuoXHkexFPTadbfJ6yXM38g5KdYj8dCQWTb3EC"
   ],
   "telemetryEndpoints": [
     [
